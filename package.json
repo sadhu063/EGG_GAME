@@ -4,8 +4,12 @@
   "description": "hen egg game",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d "
   },
   "author": "sadhu charan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
